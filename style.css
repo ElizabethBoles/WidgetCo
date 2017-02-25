@@ -1,0 +1,40 @@
+@media screen and (max-width: 35em) {
+  body {
+    background-color: red;
+  }
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+}
+
+.banner{
+  height: 30em;
+  width: 100%;
+  background-image: url("blackgeo.jpg");
+}
+
+.banner img {
+  width: 100%;
+  height: 40em;
+}
+
+.navbar {
+  height: 10em;
+  width: 100%;
+  background-color: blue;
+}
+.team {
+  height: 30em;
+  background-color: yellow;
+}
+.widgets {
+  height: 30em;
+  background-color: red;
+
+}
+.order {
+  height: 30em;
+  background-color: green;
+}
