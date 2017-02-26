@@ -10,25 +10,38 @@
       <body>
 
         <!-- Header/Nav -->
-        <header class="banner">
-          <nav class="navbar">
+        <header class="nav">
             <h1>WidgetCo</h1>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Our Widgets</li>
-              <li>Place Order</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Widgets</a></li>
+              <li><a href="#">Place Order</a></li>
             </ul>
-          </nav>
 
-        <h2>The Best widgets</h2>
-        <p>We have the best widgets. Theyre amazing. You'll love them</p>
-        Place your order now
+
+
         </header>
 
       <main>
+        <section class="banner">
+          <h2>The Best widgets</h2>
+          <p>We have the best widgets. Theyre amazing. You'll love them</p>
+          <button type="button" class="btn btn-success">Place your order now!</button>
+        </section>
         <!-- Meet the Team -->
-      <section class="team">
+        <section class="team">
+        <h2>Leading Producer of Widgets</h2>
+         <p>Herp derpsum terp mer derpler derpeker der pee perper, merp herderder.
+          Der ner terp herpderpsmer serp me mer berps tee. Pee merp perpus ler herpy.
+          Terpus herp sherp derpsum. Herpler pee derpsum sherper dee, der ner!
+          Der ter ler berp tee derpy herp pee sherpus.</p>
+        <h2>Meet the team</h2>
+         <p>Herp derpsum terp mer derpler derpeker der pee perper, merp herderder.
+          Der ner terp herpderpsmer serp me mer berps tee. Pee merp perpus ler herpy.
+          Terpus herp sherp derpsum. Herpler pee derpsum sherper dee, der ner!
+          Der ter ler berp tee derpy herp pee sherpus.</p>
+          <p class="glyphicon glyphicon-chevron-up">Go to top</p>
       </section>
 
         <!-- Widgets -->
@@ -39,11 +52,13 @@
           select your favorites. Then you can order them using the form below.</p>
          <p class="alert alert-warning" role="alert">New widgets being added all
            time</p>
-         <span class="glyphicon glyphicon-headphones"></span>
-         <span class="glyphicon glyphicon-screenshot"></span>
-         <span class="glyphicon glyphicon-dashboard"></span>
-         <span class="glyphicon glyphicon-compressed"></span>
-         <span class="glyphicon glyphicon-knight"></span>
+           <section class="icons">
+         <i class="glyphicon glyphicon-headphones"><span class="badge">23</span></i>
+         <i class="glyphicon glyphicon-screenshot"><span class="badge">10</span></i>
+         <i class="glyphicon glyphicon-dashboard"><span class="badge">33</span></i>
+         <i class="glyphicon glyphicon-compressed"><span class="badge">67</span></i>
+         <i class="glyphicon glyphicon-knight"><span class="badge">2</span></i>
+       </section>
          <nav aria-label="Page navigation">
   <ul class="pagination">
     <li>
@@ -68,9 +83,59 @@
       </section>
         <!-- Order Form -->
       <section class="order">
-      </section>
+        <h2>Place your order</h2>
+        <form action='http://requestb.in/1ntps1a1' method='POST'>
+
+            <fieldset>
+                <legend>Item Details</legend>
+                <aside>
+                    <label for='Item Type'>Item Type</label>
+                    <input type='text' name='itemtype' id='itemtype-input' placeholder='Awesome Widget'>
+                </aside>
+                <aside>
+                    <label for='Quantity'>Quantity</label>
+                    <input type='text' name='quantity' id='quantity' placeholder='4'>
+                </aside>
+                <aside>
+                    Gift Wrap
+                    <label>
+                        <input type='radio' name='contact-method' value='No'>
+                        No
+                    </label>
+                    <label>
+                        <input type='radio' name='contact-method' value='Yes'>
+                        Yes
+                    </label>
+                  </aside>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Info</legend>
+                <aside>
+                    <label for='Item Type'>Item Type</label>
+                    <input type='Text' name='TtemType' id='ItemType-input' placeholder='Awesome Widget'>
+                </aside>
+                <aside>
+                    <label for='Quantity'>Quantity</label>
+                    <input type='Text' name='Quantity' id='Quantity' placeholder='4'>
+                </aside>
+                <aside>
+                    <label for='CreditCard'>Credit Card</label>
+                    <input type='Text' name='CreditCard' id='CreditCard' placeholder='XXXX-XXXX-XXXX-XXXX'>
+                </aside>
+                <aside>
+                    <label for='Expiration'>Expiration</label>
+                    <input type='Text' name='Expiration' id='Expiration' placeholder='February 2017'>
+                </aside>
+           </fieldset>
+              <button type="submit" class="btn btn-success">Confirm Order</button>
+            <p class="glyphicon glyphicon-chevron-up">Go to top</p>
+          </form>
         <!-- Footer -->
       <footer>
+        <p>&copy; 2017 The Iron Yard Students</p>
       </footer>
       </main>
 

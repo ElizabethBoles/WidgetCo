@@ -4,26 +4,42 @@
   }
 }
 
-img{
-  max-width: 100%;
+
+.nav {
   width: 100%;
+  display: flex;
+  background: black;
+
 }
 
-.banner{
-  height: 30em;
+.nav h1{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.nav ul{
+  display: flex;
+  color: white;
+  list-style: none;
+  justify-content:flex-end;
+  flex-grow: 1
+  }
+ .nav li a{
+   text-decoration: none;
+   margin: auto 10px;
+ }
+
+.banner {
+  display: flex;
   width: 100%;
+  height: 400px;
   background-image: url("blackgeo.jpg");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.banner img {
-  width: 100%;
-  height: 40em;
-}
-
-.navbar {
-  height: 10em;
-  width: 100%;
-  background-color: blue;
+.banner h2, p{
+  color: white;
 }
 .team {
   height: 30em;
@@ -31,9 +47,21 @@ img{
 }
 .widgets {
   height: 30em;
-  background-color: red;
-
+  background-color: #337ab7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.glyphicon-headphones, .glyphicon-screenshot, .glyphicon-dashboard,
+.glyphicon-compressed, .glyphicon-knight{
+  font-size:5em;
+}
+
 .order {
   height: 30em;
   background-color: green;
