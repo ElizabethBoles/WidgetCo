@@ -43,7 +43,14 @@
 }
 .team {
   height: 30em;
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+.team p{
+  color: black;
 }
 .widgets {
   height: 30em;
@@ -52,6 +59,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.alert{
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
 }
 .icons{
   display: flex;
@@ -63,6 +75,16 @@
 }
 
 .order {
-  height: 30em;
-  background-color: green;
+  width: 100%;
+  background-color: #ffddcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-forms{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
