@@ -88,3 +88,22 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+.form-group{
+  flex-direction: column;
+  background: white;
+  width: 600px;
+  border: thin solid #337ab7;
+  margin-right: 10px;
+}
+
+.fields {
+  padding: 2%;
+}
+
+.form-group h3{
+  background: #337ab7;
+  text-align: center;
+  color: white;
+  margin: 0;
+}

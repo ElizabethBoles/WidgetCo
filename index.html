@@ -85,21 +85,28 @@
       <section class="order">
         <h2>Place your order</h2>
         <form class="order-forms" action='http://requestb.in/uovivruo' method='POST'>
-
             <fieldset class="form-group">
-                <legend>Item Details</legend>
+                <h3>Item Details</h3>
+                <section class="fields">
                 <aside>
-                    <label for='item type'>Item Type</label>
-                    <input type='text' name='itemtype' id='itemtype-input' placeholder='Awesome Widget'>
+                  <select class="form-control">
+                    <option>Select a widget</option>
+                    <option>Awesome widget</option>
+                    <option>Widget of cool</option>
+                    <option>Amazing widget</option>
+                    <option>Great widget</option>
+                  </select>
                 </aside>
+
                 <aside>
-                    <label for='quantity'>Quantity</label>
-                    <input class="form-control" type='text' name='quantity' id='quantity' placeholder='4'>
+                  <label for='quantity'>Quantity</label>
+                  <input class="form-control" type='text' name='quantity' id='quantity' placeholder='4'>
                 </aside>
+
                 <aside>
-                    Gift Wrap
+                    Gift Wrap?
                     <label>
-                        <input type='radio' name='contact-method' value='No'>
+                      <input type='radio' name='contact-method' value='No'>
                         No
                     </label>
                     <label>
@@ -107,10 +114,12 @@
                         Yes
                     </label>
                   </aside>
+                </section>
             </fieldset>
 
             <fieldset class="form-group">
-                <legend>Your Info</legend>
+                <h3>Your Info</h3>
+                <section class= "fields">
                 <aside>
                     <label for='item type'>Item Type</label>
                     <input class="form-control" type='text' name='itemtype' id='itemtype-input' placeholder='Awesome Widget'>
@@ -127,7 +136,9 @@
                     <label for='expiration'>Expiration</label>
                     <input class="form-control" type='text' name='expiration' id='expiration' placeholder='February 2017'>
                 </aside>
+              </section>
            </fieldset>
+
 
 
           </form>
