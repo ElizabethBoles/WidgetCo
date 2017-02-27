@@ -39,6 +39,7 @@
    text-decoration: none;
    margin: auto 10px;
  }
+/*end of header*/
 
 .banner {
   display: flex;
@@ -142,6 +143,7 @@
   margin: 0;
   border-radius: 5px 5px 0 0;
 }
+s
 footer{
   display: flex;
   background: #000;
