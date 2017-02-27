@@ -1,0 +1,36 @@
+.order {
+  width: 100%;
+  background-color: #ffddcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-forms{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-group{
+  flex-direction: column;
+  background: white;
+  width: 600px;
+  max-width: 100%;
+  border: thin solid #337ab7;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.fields {
+  padding: 2%;
+}
+
+.form-group h3{
+  height: 50px;
+  background: #337ab7;
+  text-align: center;
+  color: white;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+}

@@ -1,0 +1,25 @@
+.widgets {
+  width: 100%;
+  background-color: #337ab7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alert{
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.glyphicon-headphones, .glyphicon-screenshot, .glyphicon-dashboard,
+.glyphicon-compressed, .glyphicon-knight{
+  font-size:5em;
+}
+.glyphicon-chevron-up{
+  align-self: flex-end;
+  color: #337ab7;
+}

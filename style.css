@@ -102,7 +102,6 @@
   font-size:5em;
 }
 .glyphicon-chevron-up{
-
   align-self: flex-end;
   color: #337ab7;
 }
@@ -117,7 +116,6 @@
 
 .order-forms{
   display: flex;
-
   justify-content: space-around;
 }
 
@@ -143,7 +141,6 @@
   margin: 0;
   border-radius: 5px 5px 0 0;
 }
-s
 footer{
   display: flex;
   background: #000;
